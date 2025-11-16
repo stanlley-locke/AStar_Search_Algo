@@ -1,0 +1,31 @@
+astar_studio_apple/
+├── main.py
+├── config.py
+├──requirements.txt
+├──README.md
+├──project_structure.txt
+├──astar_maps.db
+│
+├── core/
+│   ├── __init__.py
+│   ├── engine.py
+│   ├── maze.py
+│   ├── obstacles.py
+│   └── database.py
+│
+├── model/
+│   ├── __init__.py
+│   └── grid_state.py
+│
+├── ui/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── theme.py
+│   ├── sidebar.py
+│   ├── canvas_view.py
+│   └── dialogs.py
+│
+└── utils/
+    ├── __init__.py
+    ├── fov.py
+    └── export.py
